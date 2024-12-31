@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2fe0ffe23e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>
+                    WebDeveloper
+                </p>
+                <h1>
+                    hi, i'm <span>aditya gaikar</span><br>from india
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_7539.jpg" alt="">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">
+                    About Me
+                </h1>
+                <p>
+                    Aditya Gaikar is a dedicated engineering student at Vivekanand Education Society's Institute of Technology (VESIT) with a strong passion for innovation and technology. Alongside his academic pursuits, he is actively learning web development, aiming to combine technical skills with creative problem-solving. Aditya is committed to applying engineering principles to real-world challenges and is eager to explore opportunities that allow him to build impactful solutions. With a curious mindset and a drive for excellence, Aditya strives to expand his knowledge and make meaningful contributions to the ever-evolving field of technology and engineering.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">
+                        skills
+                    </p>
+                    <p class="tab-links" onclick="opentab('experience')" >
+                        experience
+                    </p>
+                    <p class="tab-links" onclick="opentab('education')">
+                        education
+                    </p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skiils">
+                    <ul>
+                        <li>
+                            <span>UI/UX</span><BR> Designing web interfaces
+                        </li>
+                        <li>
+                            <span>WebDevelopment</span><BR> Web App Development
+                        </li>
+                        <li>
+                            <span>App Development</span><BR> Designing Wrb/App interfaces
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2008-2021</span><BR>Vasant Vihar High School
+                        </li>
+                        <li>
+                            <span>2021-2023</span><BR> Pace institue of technology
+                        </li>
+                        <li>
+                            <span>2023-2027</span><BR>Viviekanand Education Society of Information technology
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2023</span><BR>Python Coding
+                        </li>
+                        <li>
+                            <span>2024</span><BR>Web Development
+                        </li>
+                        <li>
+                            <span>2024</span><BR>SQL/MongoDB
+                        </li>
+                    </ul>
+                </div>  
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">
+            My Services
+        </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <H2>
+                    Web Developer
+                </H2>
+                <p>
+                    Web development involves creating, building, and maintaining websites and web applications. It encompasses aspects like web design, front-end and back-end development, database management, and ensuring websites are functional, user-friendly, and responsive.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <H2>
+                    UI/UX Design
+                </H2>
+                <p>
+                    A UI/UX developer focuses on creating user-friendly and visually appealing interfaces for websites or applications. They ensure seamless user experiences (UX) by designing intuitive layouts and interactions, while maintaining the visual appeal (UI) through design elements like colors, typography, and graphics.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <H2>
+                    App Design
+                </H2>
+                <p>
+                    App development involves designing, creating, and maintaining software applications for mobile devices, tablets, or desktops. It includes front-end design, back-end programming, testing, and deployment to provide functional, user-friendly solutions tailored to specific user needs or industries.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">
+            My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> My social media app is a platform designed to connect users, enabling them to engage, share content, and build meaningful interactions. With features like posting updates, sharing photos and videos, direct messaging, and commenting, the app allows users to communicate and stay connected with friends, family, or like-minded individuals. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music</h3>
+                    <p> My music app is a platform designed to offer users a seamless and enjoyable music experience. With features like personalized playlists, music discovery, and streaming, the app allows users to explore a wide variety of genres, tracks, and artists.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p> My online shopping app is a user-friendly platform designed to provide a seamless shopping experience. With a wide range of products, easy navigation, and secure payment options, the app allows users to browse, select, and purchase items with convenience.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact Me
+                </h1>
+                <p><i class="fa-solid fa-share-from-square"></i>adiityagaiikar@gmail.com</p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>8879832851
+                </p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.instagram.com/adityaagaikar/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-gaikar-6526a6245/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Email" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyrighted by @Aditya Gaikar
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+    }
+
+    event.currentTarget.add("active-link");
+    document.getElementById(tabname),classList.add("active-tab");
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+
+</body>
+</html>
